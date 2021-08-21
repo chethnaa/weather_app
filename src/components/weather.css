@@ -1,0 +1,75 @@
+.weather {
+    margin-top: 40px; 
+    padding: 0px 20px ;
+  }
+
+  .tab button {
+    background-color: inherit;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  .tab button:hover {
+  background-color:#ccc;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+  .weather .title {
+    font-size: 20px;  
+    font-weight: 500;
+    color: white;
+    letter-spacing: 3px;
+  }
+  span {
+    float: left;
+    clear: left;
+  }
+
+  .weather form {
+    margin-left: 60%;
+  }
+
+.weather form input::placeholder {
+  color: whitesmoke;
+}
+
+  .weather form input {   
+    width: 375px;
+    height: 20px;
+    color:white;
+    background:rgba(255,255,255,0.2);
+    padding: 10px;
+    border: none;
+  }
+  
+  .weather form input:focus {
+    outline: none;
+    background: transparent;
+  }
+  
+  .weather .getweather {
+    padding: 10px;
+    font-size: 15px;
+    border:none;
+    border-radius: 0px;
+    background:transparent;
+    cursor: pointer;
+    color:whitesmoke;
+  }
+  
+  .weather .getweather:hover {
+    background: transparent;
+    color:black;
+  }
+  
+  .weather .getweather:focus {
+    outline: none;
+  }
